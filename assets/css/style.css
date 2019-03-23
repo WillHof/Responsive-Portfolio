@@ -131,7 +131,7 @@ textarea {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     height:150px;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:768px) {
     h1{
         margin: 0px 0px 0px 0px;
     }
@@ -139,7 +139,7 @@ textarea {
         margin: 0px 0px 0px 0px;
     }
     #Main{
-        margin: 100px 50px 100px 50px;
+        margin: 20px 50px 40px 20px;
     }
 }
 @media screen and (max-width:640px) {
@@ -156,7 +156,7 @@ textarea {
         margin: 0px 0px 25px 0px
     }
     #Main{
-        margin: 70px 15px 25px 15px;
+        margin: 20px 15px 25px 20px;
         padding: 10px 25px 25px 25px;
     }
     #AboutText::before{
@@ -166,5 +166,13 @@ textarea {
     }
     #Will{
         margin-left: 25%
+    }
+}
+@media screen and (max-width:980px){
+    #Main{
+        margin: 50px 15% 100px 5%;
+    }
+    h1{
+        margin: 0px 0px 0px 5%
     }
 }
