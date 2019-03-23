@@ -142,3 +142,29 @@ textarea {
         margin: 100px 50px 100px 50px;
     }
 }
+@media screen and (max-width:640px) {
+    h1{
+        width: 100%;
+    }
+    .Links{
+        width: 100%;
+        background-color:white;
+        height:50px;
+        line-height:50px;
+    }
+    #BorderMain{
+        margin: 0px 0px 25px 0px
+    }
+    #Main{
+        margin: 70px 15px 25px 15px;
+        padding: 10px 25px 25px 25px;
+    }
+    #AboutText::before{
+        content: " ";
+    display: block;
+    clear: both;
+    }
+    #Will{
+        margin-left: 25%
+    }
+}
