@@ -74,6 +74,8 @@ footer{
     height:50px;
     padding:10px;
     border-top-color:blue;
+    position:relative;
+    bottom:0px
 }
 #FooterText{
     text-align: center;
@@ -139,7 +141,7 @@ textarea {
         margin: 0px 0px 0px 0px;
     }
     #Main{
-        margin: 20px 50px 60% 20px;
+        margin: 20px 50px 50px 20px;
     }
 }
 @media screen and (max-width:640px) {
@@ -158,7 +160,7 @@ textarea {
         margin: 0px 0px 25px 0px
     }
     #Main{
-        margin: 50px 0px 65% 0px;
+        margin: 50px 0px 15px 0px;
         padding: 10px 25px 25px 25px;
     }
     #AboutText::before{
@@ -172,7 +174,7 @@ textarea {
 }
 @media screen and (max-width:980px) and (min-width:769px){
     #Main{
-        margin: 50px 15% 35% 5%;
+        margin: 50px 15% 50px 5%;
     }
     h1{
         margin: 0px 0px 0px 5%
