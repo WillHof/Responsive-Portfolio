@@ -15,7 +15,7 @@ h1{ font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px 0px 0px 15%
 }
 h2{
-    color:#4aaaa5;
+    color:#4aaaa5
 }
 #BorderTop{
     height:5px;
@@ -75,7 +75,8 @@ footer{
     padding:10px;
     border-top-color:blue;
     position:relative;
-    bottom:0px
+    bottom:0px;
+    border-top-style: solid
 }
 #FooterText{
     text-align: center;
