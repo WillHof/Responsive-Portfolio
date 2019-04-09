@@ -30,7 +30,9 @@ h2{
 }
 a{
     text-decoration:none;
-    color: #666666
+    }
+#imgLink{
+    color:white
 }
 .Links{
 float:right;
@@ -40,7 +42,7 @@ text-align: center;
 line-height:75px;
 width: 200px;
 Margin: 0px 15% 0px 0px;
-color: #cccccc;
+color: #666666;
 text-decoration: none;
 }
 #Will{
@@ -73,10 +75,8 @@ footer{
     background-color:#666666;
     height:50px;
     padding:10px;
-    border-top-color:blue;
     position:relative;
     bottom:0px;
-    border-top-style: solid
 }
 #FooterText{
     text-align: center;
