@@ -57,7 +57,7 @@ float:left
 .clearfix::after {
     content: " ";
     display: block;
-    clear: both;
+    clear:both;
 }
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
